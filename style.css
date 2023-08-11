@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(180, 226, 230); /* Set the background color to transparent */
+}
+
+/* Center the container */
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: transparent; /* Set the background color to transparent */
+}
+
+/* Style the header section */
+.header {
+    margin-bottom: 40px;
+}
+
+.name {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.links {
+    margin-bottom: 30px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the section */
+.section {
+    margin-bottom: 40px;
+    text-align: left; /* Align section content to the left */
+    margin-left: 20px; /* Add left margin for better readability */
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: transparent; /* Set the background color to transparent */
+    padding: 5px; /* Add padding for a subtle separation */
+}
+
+/* Style bullet points for the experience section */
+.section-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style bullet points for nested lists */
+.section-content ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
